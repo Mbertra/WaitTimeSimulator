@@ -8,10 +8,8 @@
  * The user can select the maximum time they want customers to wait, and how many servers
  * they would like to employ. The user can also select the average customers (per minute)
  * that arrive in the store. 
- * The default simulation time is 20 minutes and is hard coded, but
- * if desired can be changed. All of the values can be changed for user input for i've chosen
+ * All of the values can be changed for user input but i've chosen
  * to use hard coded values for easier testing.
- * 
  * */
 public class waitTimeSimulator {
 	// Explination of the variables in depth are located in "README.md"
