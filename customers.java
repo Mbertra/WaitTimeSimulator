@@ -6,9 +6,9 @@
 //class that is a customer including it's name, wait time, and service time.
 //this class will be used in donutShop as an arraylist of type customers.
 public class customers extends Server {
-	int waitTime = 0;
+	private int waitTime = 0;
 	private int name;
-	int serviceTime = 0;
+	private int serviceTime = 0;
 
 	public customers() {
 	}
@@ -28,13 +28,6 @@ public class customers extends Server {
 		this.waitTime = waitTime;
 	}
 
-	public int getName() {
-		return name;
-	}
-
-	public void setName(int name) {
-		this.name = name;
-	}
 
 	public void setServiceTime(int sTime) {
 		this.serviceTime = sTime;
