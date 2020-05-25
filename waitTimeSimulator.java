@@ -14,7 +14,7 @@
  * 
  * */
 public class waitTimeSimulator {
-
+	// Explination of the variables in depth are located in "README.md"
 	public static void main(String[] args) {
 		donutShop ds = new donutShop();
 		ds.maxServiceTime = 3; // service time max
