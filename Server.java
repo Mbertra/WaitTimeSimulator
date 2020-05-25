@@ -4,8 +4,8 @@
  * Author: Matthew Bertrand
  */
 public class Server extends waitTimeSimulator {
-	int status = 0; // 0 = idle, 1 = active.
-	int serverName; // int value to represent the servers name
+	private int status = 0; // 0 = idle, 1 = active.
+	private int serverName; // int value to represent the servers name
 	customers customer; // customer from customers class for a server to point to.
 
 	public Server() {
@@ -42,5 +42,4 @@ public class Server extends waitTimeSimulator {
 	public customers getCustomer() {
 		return this.customer;
 	}
-
 }
